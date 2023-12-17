@@ -1,0 +1,22 @@
+{
+    "name": "mssdef/module-iframe",
+    "description": "Iframe content type for Adobe PageBuilder",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Andrew Andrew",
+            "email": "aadefcom@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mssdef\\Iframe\\": ""
+        }
+    }
+}

@@ -1,0 +1,15 @@
+<!-- mssdef/iframe preview.html -->
+<div attr="data.main.attributes"
+     ko-style="data.main.style"
+     css="data.main.css"
+     class="pagebuilder-content-type"
+     event="{ mouseover: onMouseOver, mouseout: onMouseOut }, mouseoverBubble: false"
+>
+    <render args="getOptions().template" />
+    <div class="iframe-content">
+        <h3 attr="data.url.attributes"
+             data-bind="liveEdit: { field: 'url', placeholder: $t('url') }">
+        </h3>
+    </div>
+</div>
+
